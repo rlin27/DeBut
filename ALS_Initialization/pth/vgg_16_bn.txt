@@ -1,0 +1,3 @@
+please download vgg_16_bn.pt through: https://drive.google.com/open?id=1i3ifLh70y1nb8d4mazNzyC4I27jQcHrE
+
+This link is provided by the authous of Hrank: Filter pruning using high-rank feature map (CVPR2020).

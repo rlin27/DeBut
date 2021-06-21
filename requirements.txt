@@ -1,0 +1,25 @@
+blessings==1.7
+certifi==2020.12.5
+cycler==0.10.0
+dataclasses @ file:///home/conda/feedstock_root/build_artifacts/dataclasses_1615224146321/work
+gpustat==0.6.0
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612282412546/work
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1613407855456/work
+mkl-fft==1.3.0
+mkl-random==1.2.0
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603487797006/work
+nvidia-ml-py3==7.352.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+Pillow @ file:///tmp/build/80754af9/pillow_1615224027575/work
+psutil==5.8.0
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+scipy @ file:///tmp/build/80754af9/scipy_1597686625380/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+torch==1.8.1
+torchaudio==0.8.0a0+e4e171a
+torchvision==0.9.1
+tornado @ file:///tmp/build/80754af9/tornado_1606942266872/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1615925068909/work
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
