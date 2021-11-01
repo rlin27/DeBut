@@ -84,42 +84,43 @@ After using ALS initialization to get the well-initialized DeBut factors of the 
 #### MNIST & CIFAR-10
 For dataset MNIST and CIFAR-10, we train our models using the following commands.
 ```
-–-log_dir [directory of the saved logs and models] n
-–-data_dir [directory to training data] n
-–-r_shape_txt [path to txt files for shapes of the chain] n
-–-dataset [MNIST/CIFAR10] n
-–-debut_layers [layers which use DeBut] n
-–-arch [LeNet_DeBut/VGG_DeBut] n
-–-use_pretrain [whether to use the pretrained model] n
-–-pretrained_file [path to the pretrained checkpoint file] n
-–-use_ALS [whether to use ALS as the initialization method]n
-–-DeBut_init_dir [directory of the saved ALS files] n
-–-batch_size [training batch] n
-–-epochs [training epochs] n
-–-learning_rate [training learning rate] n
-–-lr_decay_step [learning rate decay step] n
-–-momentum [SGD momentum] n
-–-weight_decay [weight decay] n
+python train.py \
+–-log_dir [directory of the saved logs and models] \
+–-data_dir [directory to training data] \
+–-r_shape_txt [path to txt files for shapes of the chain] \
+–-dataset [MNIST/CIFAR10] \
+–-debut_layers [layers which use DeBut] \
+–-arch [LeNet_DeBut/VGG_DeBut] \
+–-use_pretrain [whether to use the pretrained model] \
+–-pretrained_file [path to the pretrained checkpoint file] \
+–-use_ALS [whether to use ALS as the initialization method] \
+–-DeBut_init_dir [directory of the saved ALS files] \
+–-batch_size [training batch] \
+–-epochs [training epochs] \
+–-learning_rate [training learning rate] \
+–-lr_decay_step [learning rate decay step] \
+–-momentum [SGD momentum] \
+–-weight_decay [weight decay] \
 –-gpu [index of the GPU that will be used]
 ```
 
 #### ImageNet
 For ImageNet, we use commands as below:
 ```
-python train_imagenet.py n
--–log_dir [directory of the saved logs and models] n
-–-data_dir [directory to training data] n
-–-r_shape_txt [path to txt files for shapes of the chain] n
-–-arch resnet50 n
-–-pretrained_file [path to the pretrained checkpoint file] n
-–-use_ALS [whether to use ALS as the initialization method]n
-–-DeBut_init_dir [directory of the saved ALS files] n
-–-batch_size [training batch] n
-–-epochs [training epochs] n
-–-learning_rate [training learning rate] n
-–-momentum [SGD momentum] n
-–-weight_decay [weight decay] n
-–-label_smooth [label smoothing] n
+python train_imagenet.py \
+-–log_dir [directory of the saved logs and models] \
+–-data_dir [directory to training data] \
+–-r_shape_txt [path to txt files for shapes of the chain] \
+–-arch resnet50 \
+–-pretrained_file [path to the pretrained checkpoint file] \
+–-use_ALS [whether to use ALS as the initialization method] \
+–-DeBut_init_dir [directory of the saved ALS files] \
+–-batch_size [training batch] \
+–-epochs [training epochs] \
+–-learning_rate [training learning rate] \
+–-momentum [SGD momentum] \
+–-weight_decay [weight decay] \
+–-label_smooth [label smoothing] \
 –-gpu [index of the GPU that will be used]
 ```
 
